@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 # ================== SOZLAMALAR ==================
 import os
-BOT_TOKEN = os.getenv"8344495149:AAH_ei-5dHla1qOlgaELJzAv6hM4qMpmKQk"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 SPECIALISTS = {
     "EDO.IJRO.UZ": {
@@ -151,3 +151,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
